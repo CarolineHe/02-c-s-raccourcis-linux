@@ -1,0 +1,21 @@
+body{
+  background-image: url(images.jpeg);
+  background-attachment: fixed;
+  background-repeat: space;
+  color: white;
+  }
+
+  p {
+    line-height: 200%;
+    margin: 2em auto;
+    width: 100%;
+  }
+
+  code {
+    background-color: white;
+    border-radius: 1.5em;
+    color: black;
+    font-family: Arial;
+    padding: 0.5em 1.5em;
+
+}
