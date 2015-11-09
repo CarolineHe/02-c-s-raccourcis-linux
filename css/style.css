@@ -1,24 +1,111 @@
-body{
-  background-image: url(images.jpeg);
-  background-attachment: fixed;
-  background-repeat: space;
-  color: white;
-  }
 
-  p {
-    line-height: 200%;
-    margin: 2em auto;
-    width: 100%;
-  }
+/*/////////////////////////////screen between 200px-767px////////////////////////*/
+@media screen and (min-width: 200px) and (max-width: 767px) {
+    body{
+      background-color: grey;
+      font-size: 1em;
+      margin:10px;
+      list-style: none;
+      color: white;
+      }
 
-  code {
-    background-color: white;
-    border-radius: 1.5em;
-    color: black;
-    font-family: Arial;
-    padding: 0.5em 1.5em;
+    h1 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+    p {
+        /*line-height: 200%;*/
+        margin: 10px;
+        margin-bottom: 15px;
+        color:black;
+        font-size: 1em;
+    }
+
+     code {
+        font-size: 0.8em;
+        background-color: white;
+        border-radius: 0.5em;
+        margin:5px;
+        padding:1.5px;
+        color: black;
+        font-family: Arial;
+    }
+
+    a {
+      color:white;
+    }
 }
 
-a {
-  color:white;
+
+/*/////////////////////////////screen between 768px-1032px////////////////////////*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    body{
+      background-color: grey;
+      font-size: 1em;
+      margin:30px;
+      list-style: none;
+      color: white;
+      }
+
+    h1 {
+        text-align: center;
+        font-size: 1em;
+    }
+
+      p {
+        /*line-height: 200%;*/
+        margin: 20px;
+        color:black;
+    }
+
+      code {
+        font-size: 0.8em;
+        background-color: white;
+        border-radius: 0.5em;
+        margin:10px;
+        padding:5px;
+        color: black;
+        font-family: Arial;
+    }
+
+    a {
+      color:white;
+    }
+}
+
+
+/*/////////////////////////////screen between 1024px-1500px////////////////////////*/
+@media screen and (min-width: 1024px) and (max-width: 1500px) {
+
+    body{
+      background-color: grey;
+      margin:30px;
+      margin-left: 200px;
+      list-style: none;
+      color: white;
+      }
+
+    h1 {
+        text-align: center;
+    }
+
+    p {
+        color: black;
+        line-height: 200%;
+        margin: 2em auto;
+        width: 100%;
+      }
+
+    code {
+        background-color: white;
+        border-radius: 1.5em;
+        color: black;
+        font-family: Arial;
+        padding: 0.5em 1.5em;
+    }
+
+    a {
+      color:white;
+    }
 }
